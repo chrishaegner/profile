@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+body {
+  background-color: rgb(220,220,220);
+  font-family: Montserrat;
+  color: #4C5454;
+  font-size: 15;
+  line-height: 1.5
+}
+
+h1 {
+  color: #233D4D;
+  font-family: Open Sans;
+  font-size: 30;
+  line-height: 1;
+  margin: 10;
+  padding: 5
+}
+
+h2 {
+  color: #4C5454;
+  font-family: Open Sans;
+  font-size: 20;
+  line-height: 1;
+  margin: 10;
+  padding: 5;
+}
+
+a {
+  color: #4C5454;
+  text-decoration: none
+}
+
+a:hover {
+  color: #E89005;
+}
+
+p {
+  padding: 5;
+}
+
+.container {
+  padding: 5;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.card {
+  background: rgb(230,230,230);
+  padding: 30px 50px;
+  border-radius: 4px;
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  margin: 20;
+
+}
+
+.button {
+  background: #233D4D;
+  padding: 10 70;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  margin: 10;
+  display: inline-block;
+}
+
+.button:hover {
+  color: rgb(50,50,50);
+  background: #E89005;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 250px;
+  border: 3px solid rgb(150,150,150);
+}
+
+.inline-links {
+  list-style: none;
+  padding: 0;
+}
+
+.inline-links li {
+  display: inline-block;
+  margin: 10;
+  font-size: 20;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .image-circle {
+    width: 150px;
+  }
+  .button {
+    padding: 10 30;
+    margin: 4;
+  }
+  .card {
+    padding: 20 30;
+  }
+}
